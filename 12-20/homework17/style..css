@@ -83,6 +83,7 @@ h1{
     align-items: start;
     width: 236px;
     margin-top: 12px;
+    cursor: pointer;
 }
 .side2{
     display: inline-flex;
@@ -119,11 +120,18 @@ p{
     font-style: normal;
     font-weight: 400;
     line-height: 18px; /* 150% */
+
+}.temo{
+    position: absolute;
+    margin-top: -9000px;
 }
 .mr{
     width: 177px;
 }
-.black{
+.pic{
+    display: none;
+}
+.shavi{
     color: #1E1F36;
     font-family: 'Kumbh Sans';
     font-size: 14px;
@@ -131,14 +139,16 @@ p{
     font-weight: 700;
     line-height: normal;
     width: 254px;
+    transition: all 0.5s;
 }
 .active{
     display: block;
     margin-top: 13px;
+    transition: all 0.5s;
 }
 .rotate{
     transform: rotate(180deg);
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 .samsung{
     display: flex;

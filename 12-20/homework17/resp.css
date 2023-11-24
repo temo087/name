@@ -1,7 +1,6 @@
 @media (width >= 1440px){
     .box{
         width: 920px;
-        height: 509px;
         border-radius: 23px;
         background: #FFF;
         box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
@@ -46,6 +45,13 @@
         font-weight: 400;
         line-height: normal;
         width: 253px;
+    }
+    .temo{
+        margin: 400px 0 0 0;
+    }
+    .pic{
+        display: contents;
+        position: absolute;
     }
     /* .yuti{
         display: block;
